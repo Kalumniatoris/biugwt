@@ -1,0 +1,2 @@
+serviceClass: ka2.biu.client.MyService
+path: 7F8B643C1A4AF29096805B6A38DC1BA8.gwt.rpc
