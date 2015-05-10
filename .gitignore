@@ -9,3 +9,5 @@ target
 /gwt-unitCache
 .gwt
 .settings
+*.gwt.rpc
+/war/gwta

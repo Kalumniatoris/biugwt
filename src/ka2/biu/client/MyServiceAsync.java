@@ -9,8 +9,10 @@ import com.google.gwt.user.client.rpc.AsyncCallback;
 
 public interface MyServiceAsync {
 
-	void NowyTermin(String name, Date data, AsyncCallback<Termin> callback);
+	void NowyTermin(String name, Date data,String sword, AsyncCallback<Termin> callback);
 
 	void getAll(AsyncCallback<List<Termin>> callback);
+
+	void Remove(String pass, AsyncCallback<Integer> callback);
 
 }

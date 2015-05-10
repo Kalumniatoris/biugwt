@@ -9,6 +9,7 @@ import com.google.gwt.user.client.rpc.RemoteService;
 import com.google.gwt.user.client.rpc.RemoteServiceRelativePath;
 @RemoteServiceRelativePath("termin")
 public interface MyService extends RemoteService {
-	Termin NowyTermin(String name, Date data);
+	Termin NowyTermin(String name, Date data, String sword);
 	List<Termin> getAll();
+	int Remove(String pass);
 }

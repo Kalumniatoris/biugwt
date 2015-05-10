@@ -7,8 +7,8 @@ import java.util.List;
 public class Myser {
 	static List<Termin> terminy = new ArrayList<Termin>();
 	
-	public static void NowyTermin(String name, Date data){
-		terminy.add(new Termin(name, data));
+	public static void NowyTermin(String name, Date data, String sword){
+		terminy.add(new Termin(name, data, sword));
 		
 	}
 	

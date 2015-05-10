@@ -7,15 +7,20 @@ public class Termin implements Serializable {
 	/**
 	 * 
 	 */
-	private static final long serialVersionUID = 1L;
+	private static final long serialVersionUID = -3953857210058110882L;
+	/**
+	 * 
+	 */
 	private String name;
 	private Date data;
+	private String sword;
 	public Termin(){
 		
 	}
-	public Termin(String name, Date data){
+	public Termin(String name, Date data, String sword){
 		this.name=name;
 		this.data=data;
+		this.sword = sword;
 	}
 	
 	public Date getData() {
@@ -29,6 +34,12 @@ public class Termin implements Serializable {
 	}
 	public void setName(String name) {
 		this.name = name;
+	}
+	public String getSword() {
+		return sword;
+	}
+	public void setSword(String sword) {
+		this.sword = sword;
 	}
 	
 }
